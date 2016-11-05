@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\talla\Documents\GameBaba\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a1ed98e01bd58976d80c062fd0ea2968a1ff68a1">
+        <dex dex="C:\Users\talla\Documents\GameBaba\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-9.8.0_d858ab9686aa7e62976b3b81db4f6217eb3c0b78\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\talla\Documents\GameBaba\app\build\intermediates\exploded-aar\com.mcxiaoke.volley\library-aar\1.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
+        <dex dex="C:\Users\talla\Documents\GameBaba\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mcxiaoke.volley-library-aar-1.0.0_9217f2517dc1bb16f95a5b6c366f9cd2bd922e38\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\talla\Documents\GameBaba\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e5ba59ffd6c345361f0a6a9d230de1c8b17f13d2">
+        <dex dex="C:\Users\talla\Documents\GameBaba\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_d87eb16f9e0bca9d86cac960843e1f9976cc5b44\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\talla\Documents\GameBaba\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="C:\Users\talla\Documents\GameBaba\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_0f86f7a0202918ebeefe37d2d302806c13e02e71\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\talla\Documents\GameBaba\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="C:\Users\talla\Documents\GameBaba\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.8.0_a842178b389822e39d88f61556bd3e387be63ec5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\talla\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="C:\Users\talla\Documents\GameBaba\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.7.0_1121f7853935cd7542d9b11ec9764d24ebecd079\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\talla\Documents\GameBaba\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="C:\Users\talla\Documents\GameBaba\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.4.0_621733635abe22fe05a21bdfb075408118396cfc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\talla\Documents\GameBaba\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="C:\Users\talla\Documents\GameBaba\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.0.0_3095b215fc4a23b5ac42b87c95a4b41563ec7963\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\talla\Documents\GameBaba\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\talla\Documents\GameBaba\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_b8755936b963ab078ca1d4962e586e7dddce8d58\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\talla\Documents\GameBaba\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="61ac8f6f076da78d8b057071878d7ae28512aa0c">
+        <dex dex="C:\Users\talla\Documents\GameBaba\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_72cfaf6c9164629d3071b3ef39fc7e5a9e28ba79\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\talla\Documents\GameBaba\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="C:\Users\talla\Documents\GameBaba\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.4.0_a112033781c4fc16521ae500fb7a45d269570ffa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\talla\Documents\GameBaba\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\talla\Documents\GameBaba\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_626b52c8715865cdf12d471005367639598a9d7d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\adt\sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="C:\Users\talla\Documents\GameBaba\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.0.0_3ab8ba070adfa7a0907efa2aae38bd5b13ccd158\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\talla\Documents\GameBaba\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="C:\Users\talla\Documents\GameBaba\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.8.0_003bd312070fe03a8dbc42bfb1db123225431c62\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\talla\Documents\GameBaba\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="C:\Users\talla\Documents\GameBaba\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.8.0_cc8a022a9d6de966a3402d28b9d39a48dfd9fd66\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\talla\Documents\GameBaba\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ca851be26ff89f5b32cc222cee98139fb3fac830">
+        <dex dex="C:\Users\talla\Documents\GameBaba\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-9.8.0_8966256b666970bc7ca08d1cce2b3f9dcd5f70df\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\talla\Documents\GameBaba\app\build\intermediates\exploded-aar\com.makeramen\roundedimageview\2.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="814fc0c3ec69a944add398217d90077301501a74">
+        <dex dex="C:\Users\talla\Documents\GameBaba\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.makeramen-roundedimageview-2.2.1_8f7b4f44d9a4971ce013edda9a159948562f7286\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\talla\Documents\GameBaba\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3daa7a9c9009fd386872a84c177a76979bdcafd6">
+        <dex dex="C:\Users\talla\Documents\GameBaba\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-9.8.0_7f91b732aaaadef90affd23b4afa65c7f22f8c7c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\talla\Documents\GameBaba\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\talla\Documents\GameBaba\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_828b0efaac9b0adc8b47f2ff00311fce2a470ccb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\talla\Documents\GameBaba\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="C:\Users\talla\Documents\GameBaba\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_654e30d3a3e5da219154f821b505ffc525d9f5ea\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">GameBaba</string>
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="loading">loading...</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="rs">\u20B9</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_ps4">PS4</string>
+    <string name="nav_xbox">XBox</string>
+    <string name="nav_about">About Us</string>
+    <string name="nav_orders">Your Orders</string>
+    <string name="nav_account">Your Account</string>
+    <string name="nav_contact">Contact Us</string>
+    <string name="nav_logout">Logout</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>GameBaba</item>
+        <item>PS4</item>
+        <item>XBox</item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
