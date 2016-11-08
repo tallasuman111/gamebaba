@@ -67,7 +67,6 @@ public class PS4Fragment extends Fragment {
 
         //Initializing our productList list
         productList = new ArrayList<>();
-
         //Calling method to get data
         getData();
     }
@@ -97,11 +96,7 @@ public class PS4Fragment extends Fragment {
                     }
                 });
         MySingleton.getInstance(getActivity()).addToRequestQueue(jsonArrayRequest);
-        //Creating request queue
-        //RequestQueue requestQueue = Volley.newRequestQueue(getActivity());
 
-        //Adding request to the queue
-        //requestQueue.add(jsonArrayRequest);
     }
 
     //This method will parse json data
@@ -125,9 +120,10 @@ public class PS4Fragment extends Fragment {
 
         //Finally initializing our adapter
         adapter = new ProductAdapter(productList, context);
-
         //Adding adapter to recyclerview
         recyclerView.setAdapter(adapter);
+        adapter.notifyDataSetChanged();
+
     }
 
 

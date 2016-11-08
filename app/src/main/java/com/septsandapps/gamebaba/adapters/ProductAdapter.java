@@ -1,6 +1,7 @@
 package com.septsandapps.gamebaba.adapters;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -16,6 +17,7 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.septsandapps.gamebaba.R;
 import com.septsandapps.gamebaba.activity.HomeActivity;
+import com.septsandapps.gamebaba.activity.ProductActivity;
 import com.septsandapps.gamebaba.backend.Config;
 import com.septsandapps.gamebaba.backend.CustomVolleyRequest;
 import com.septsandapps.gamebaba.fragment.HomeFragment;
@@ -49,7 +51,7 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ViewHold
 
     @Override
     public void onBindViewHolder(ViewHolder viewHolder, int position) {
-        ProductDetails productDetails = itemsList.get(position);
+        final ProductDetails productDetails = itemsList.get(position);
         //imageLoader = CustomVolleyRequest.getInstance(context).getImageLoader();
         //imageLoader.get(productDetails.getImageUrl(), ImageLoader.getImageListener(viewHolder.gameImage, R.mipmap.ic_launcher, android.R.drawable.ic_dialog_alert));
 
@@ -76,7 +78,12 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ViewHold
             viewHolder.cardView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-
+                    Intent i = new Intent(context, ProductActivity.class);
+                    i.putExtra("consoleimg",Config.IMAGE_URL + productDetails.getGameConsole());
+                    i.putExtra("gameimg",Config.IMAGE_URL + productDetails.getImageUrl());
+                    i.putExtra("name",productDetails.getGameTitle());
+                    i.putExtra("price",productDetails.getPrice());
+                    context.startActivity(i);
                 }
             });
         }

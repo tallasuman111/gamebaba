@@ -52,7 +52,8 @@ public class XboxFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_xbox, container, false);
+        final View view = inflater.inflate(R.layout.fragment_xbox, container, false);
+        return view;
     }
 
     @Override
@@ -97,11 +98,7 @@ public class XboxFragment extends Fragment {
                     }
                 });
         MySingleton.getInstance(getActivity()).addToRequestQueue(jsonArrayRequest);
-        //Creating request queue
-        //RequestQueue requestQueue = Volley.newRequestQueue(getActivity());
 
-        //Adding request to the queue
-        //requestQueue.add(jsonArrayRequest);
     }
 
     //This method will parse json data
@@ -125,10 +122,9 @@ public class XboxFragment extends Fragment {
 
         //Finally initializing our adapter
         adapter = new ProductAdapter(productList, context);
-
+        adapter.notifyDataSetChanged();
         //Adding adapter to recyclerview
         recyclerView.setAdapter(adapter);
     }
-
 
 }

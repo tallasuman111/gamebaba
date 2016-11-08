@@ -105,17 +105,21 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
             //Displaying name and email
             name = acct.getDisplayName();
             email = acct.getEmail();
-            imageUrl = acct.getPhotoUrl().toString();
+            try {
+                imageUrl = acct.getPhotoUrl().toString();
+            }
+            catch(NullPointerException ex){ex.printStackTrace();}
             //imageUrl = "https://scontent-sin6-1.xx.fbcdn.net/v/t1.0-9/522131_972273832802725_4700412366431593991_n.jpg?oh=c5c5e1b3a63ed38523713e52432ab3a4&oe=58A64083";
             if(imageUrl==null)
             {
                 imageUrl = "https://www.materialui.co/materialIcons/action/account_circle_grey_192x192.png";
             }
-            SharedPreferences sharedPref = getSharedPreferences("userInfo", Context.MODE_PRIVATE);
-            SharedPreferences.Editor editor = sharedPref.edit();
+            SharedPreferences pref = getApplicationContext().getSharedPreferences("UserInfo", 0); // 0 - for private mode
+            SharedPreferences.Editor editor = pref.edit();
             editor.putString("username", name);
             editor.putString("email",email);
             editor.putString("profilePic",imageUrl);
+            editor.commit(); // commit changes
 
             Intent i = new Intent(LoginActivity.this,HomeActivity.class);
             i.putExtra("username", name);
